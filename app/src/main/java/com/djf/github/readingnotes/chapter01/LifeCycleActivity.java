@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.djf.github.readingnotes.Bean.LogUtil;
 import com.djf.github.readingnotes.R;
+import com.djf.github.readingnotes.Utils.SimpleLogUtils;
 
 public class LifeCycleActivity extends Activity {
 
@@ -12,26 +13,30 @@ public class LifeCycleActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onCreate");
         setContentView(R.layout.activity_life_cycle);
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onStart");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onRestart");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onResume");
     }
 
     /**
@@ -41,7 +46,8 @@ public class LifeCycleActivity extends Activity {
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onRestoreInstanceState");
     }
 
     /**
@@ -54,24 +60,28 @@ public class LifeCycleActivity extends Activity {
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onSaveInstanceState");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onPause");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onStop");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        LogUtil.d3("");
+        //LogUtil.d3("");
+        SimpleLogUtils.d("onDestroy");
     }
 }

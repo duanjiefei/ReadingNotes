@@ -18,7 +18,15 @@
         </activity>
         <activity android:name=".chapter01.LifeCycleActivity"
             android:configChanges="orientation|screenSize">
+        </activity>
 
+        <activity android:name=".chapter02.Chapter2Activity"/>
+        <activity android:name=".chapter02.StartProcessActivity"/>
+        <activity android:name=".chapter02.StartProcessSecondActivity"
+            android:process=":remote">
+        </activity>
+        <activity android:name=".chapter02.StartProcessThirdActivity"
+            android:process="com.djf.github.readingnotes.remote">
         </activity>
     </application>
 

@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">ReadingNotes</string>
+    <string name="start_process">This is Start Process Activity</string>
+    <string name="second_activity">This is Second Activity</string>
+    <string name="third_activity">This is Third  Activity</string>
     <string name="chapter01">LifeCircle</string>
     <string name="chapter02">AIDL</string>
+    <string name="chapter02_start_process">start_process</string>
+    <string name="startSecondActivity">startSecondActivity</string>
+    <string name="startThirdActivity">startThirdActivity</string>
+    <string name="thread" >线程：线程是CPU调度的最小单元</string>
+    <string name="process" >进程：进程一般指一个执行单元，在PC或者移动设备上指一个应用程序</string>
+    <string name="thread_process" >线程与进程之间的关系：一个进程可以包含多个线程，因此进程与线程之间是包含于被包含的关系，一个进程可以包含一个主线程，在Android中主线程也叫UI线程，在主线程中不能做耗时操作，容易导致ANR</string>
 </resources>

@@ -31,7 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             case R.id.chapter2:
-                intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.chapter01.LifeCycleActivity");
+                intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.chapter02.Chapter2Activity");
                 startActivity(intent);
                 break;
             default:

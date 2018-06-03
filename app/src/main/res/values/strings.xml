@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ReadingNotes</string>
     <string name="chapter01">LifeCircle</string>
+    <string name="chapter02">AIDL</string>
 </resources>

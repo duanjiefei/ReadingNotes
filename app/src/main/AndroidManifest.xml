@@ -30,6 +30,7 @@
         </activity>
         <activity android:name=".View.CustomViewActivity"/>
         <activity android:name=".BaseActivity"/>
+        <activity android:name=".View.CustomTextViewActivity"/>
     </application>
 
 </manifest>

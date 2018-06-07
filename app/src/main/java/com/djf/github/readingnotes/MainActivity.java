@@ -11,6 +11,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     private Button chapter01;
     private Button chapter02;
     private Button customView;
+    private Button customTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +20,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         chapter01 = findViewById(R.id.chapter1);
         chapter02 = findViewById(R.id.chapter2);
         customView = findViewById(R.id.customView);
+        customTextView = findViewById(R.id.customTextView);
         chapter01.setOnClickListener(this);
         chapter02.setOnClickListener(this);
         customView.setOnClickListener(this);
+        customTextView.setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +42,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
 
             case R.id.customView:
                 intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.View.CustomViewActivity");
+                startActivity(intent);
+                break;
+            case R.id.customTextView:
+                intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.View.CustomTextViewActivity");
                 startActivity(intent);
                 break;
             default:

@@ -28,6 +28,8 @@
         <activity android:name=".chapter02.StartProcessThirdActivity"
             android:process="com.djf.github.readingnotes.remote">
         </activity>
+        <activity android:name=".View.CustomViewActivity"/>
+        <activity android:name=".BaseActivity"/>
     </application>
 
 </manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBarView">
+        <attr name="tittle" format="string"/>
+        <attr name="tittleSize" format="dimension"/>
+        <attr name="tittleColor" format="color"/>
+        <attr name="leftTittle" format="string"/>
+        <attr name="leftBackGround" format="color|reference"/>
+        <attr name="leftTittleColor" format="color"/>
+        <attr name="rightTittle" format="string"/>
+        <attr name="rightBackGround" format="color|reference"/>
+        <attr name="rightTittleColor" format="color"/>
+    </declare-styleable>
+</resources>

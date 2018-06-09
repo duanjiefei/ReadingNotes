@@ -12,4 +12,22 @@
         android:text="@string/app_name"
         android:layout_height="50dp" />
 
+    <com.djf.github.readingnotes.View.TopBarView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/topview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        custom:leftBackGround="@drawable/blue_button"
+        custom:leftTittle="text"
+        custom:leftTittleColor="#ffffff"
+        custom:rightBackGround="@drawable/blue_button"
+        custom:rightTittle="More"
+        custom:rightTittleColor="#ffffff"
+        custom:tittle="TopBar"
+        custom:tittleColor="@color/colorAccent"
+        custom:tittleSize="20sp"
+        />
+
+
 </LinearLayout>

@@ -13,6 +13,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     private Button customView;
     private Button customTextView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         chapter02 = findViewById(R.id.chapter2);
         customView = findViewById(R.id.customView);
         customTextView = findViewById(R.id.customTextView);
+
         chapter01.setOnClickListener(this);
         chapter02.setOnClickListener(this);
         customView.setOnClickListener(this);

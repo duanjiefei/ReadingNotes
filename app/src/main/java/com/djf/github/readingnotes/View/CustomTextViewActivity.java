@@ -1,6 +1,7 @@
 package com.djf.github.readingnotes.View;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.djf.github.readingnotes.BaseActivity;
 import com.djf.github.readingnotes.R;
@@ -11,9 +12,27 @@ import com.djf.github.readingnotes.R;
 
 public class CustomTextViewActivity extends BaseActivity {
 
+    private TopBarView topBarView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.customtextview_layout);
+        topBarView = findViewById(R.id.topview);
+        topBarView.setTopBarListener(new TopBarView.TopBarListener() {
+            @Override
+            public void leftOnclick() {
+                Toast.makeText(CustomTextViewActivity.this,
+                        "left", Toast.LENGTH_SHORT)
+                        .show();
+            }
+
+            @Override
+            public void rightOnclick() {
+                Toast.makeText(CustomTextViewActivity.this,
+                        "right", Toast.LENGTH_SHORT)
+                        .show();
+            }
+        });
     }
 }

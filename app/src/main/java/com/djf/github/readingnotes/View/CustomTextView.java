@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 /**
  * Created by Sky000 on 2018/6/7.
+ *
+ * 对现有控件进行扩展
+ *
  */
 
 public class CustomTextView extends TextView{

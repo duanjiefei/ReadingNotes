@@ -14,6 +14,8 @@ import com.djf.github.readingnotes.R;
 
 /**
  * Created by Sky000 on 2018/6/8.
+ *
+ * 第二种，利用已有控件，创建复合控件
  */
 
 public class TopBarView  extends RelativeLayout{

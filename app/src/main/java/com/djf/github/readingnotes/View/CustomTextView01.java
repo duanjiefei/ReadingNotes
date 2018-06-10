@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 
 /**
  * Created by Sky000 on 2018/6/7.
+ * 第一种 对现有控件进行扩展
  */
 
 public class CustomTextView01  extends  CustomTextView{

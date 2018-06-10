@@ -1,33 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.djf.github.readingnotes.View.CustomTextView01
-        android:layout_width="200px"
-        android:text="@string/app_name"
-        android:gravity="center"
-        android:layout_height="100px" />
-    <com.djf.github.readingnotes.View.ShineTextView
-        android:layout_width="300dp"
-        android:text="@string/app_name"
-        android:layout_height="50dp" />
 
-    <com.djf.github.readingnotes.View.TopBarView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:custom="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/topview"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        custom:leftBackGround="@drawable/blue_button"
-        custom:leftTittle="text"
-        custom:leftTittleColor="#ffffff"
-        custom:rightBackGround="@drawable/blue_button"
-        custom:rightTittle="More"
-        custom:rightTittleColor="#ffffff"
-        custom:tittle="TopBar"
-        custom:tittleColor="@color/colorAccent"
-        custom:tittleSize="20sp"
-        />
+        android:layout_height="match_parent">
+        <com.djf.github.readingnotes.View.CustomTextView01
+            android:layout_width="200px"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:layout_height="100px" />
+        <com.djf.github.readingnotes.View.ShineTextView
+            android:layout_width="300dp"
+            android:text="@string/app_name"
+            android:layout_height="50dp" />
+
+        <com.djf.github.readingnotes.View.TopBarView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/topview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            custom:leftBackGround="@drawable/blue_button"
+            custom:leftTittle="text"
+            custom:leftTittleColor="#ffffff"
+            custom:rightBackGround="@drawable/blue_button"
+            custom:rightTittle="More"
+            custom:rightTittleColor="#ffffff"
+            custom:tittle="TopBar"
+            custom:tittleColor="@color/colorAccent"
+            custom:tittleSize="20sp"
+            />
+        <com.djf.github.readingnotes.View.CirclrProgressView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:CircleText="创维"
+            custom:CircleTextSize="25sp"
+            custom:CircleTextColor="@color/colorAccent"
+            custom:ArcColor="#885678"
+            custom:ArcPrecent="80"/>
+        
+        <com.djf.github.readingnotes.View.MusicView
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
 
 
-</LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

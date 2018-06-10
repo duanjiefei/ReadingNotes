@@ -11,4 +11,12 @@
         <attr name="rightBackGround" format="color|reference"/>
         <attr name="rightTittleColor" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="CircleText" format="string"/>
+        <attr name="CircleTextSize" format="dimension"/>
+        <attr name="CircleTextColor" format="color"/>
+        <attr name="ArcColor" format="color|reference"/>
+        <attr name="ArcPrecent" format="integer"/>
+    </declare-styleable>
 </resources>

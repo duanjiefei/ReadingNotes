@@ -12,6 +12,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     private Button chapter02;
     private Button customView;
     private Button customTextView;
+    private Button customViewGroup;
 
 
     @Override
@@ -22,11 +23,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         chapter02 = findViewById(R.id.chapter2);
         customView = findViewById(R.id.customView);
         customTextView = findViewById(R.id.customTextView);
+        customViewGroup = findViewById(R.id.customViewGroup);
 
         chapter01.setOnClickListener(this);
         chapter02.setOnClickListener(this);
         customView.setOnClickListener(this);
         customTextView.setOnClickListener(this);
+        customViewGroup.setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +51,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
                 break;
             case R.id.customTextView:
                 intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.View.CustomTextViewActivity");
+                startActivity(intent);
+                break;
+            case R.id.customViewGroup:
+                intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.View.CustomViewGroupActivity");
                 startActivity(intent);
                 break;
             default:

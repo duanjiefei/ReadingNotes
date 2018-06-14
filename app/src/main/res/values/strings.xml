@@ -2,6 +2,7 @@
     <string name="app_name">ReadingNotes</string>
     <string name="customView">CustomView</string>
     <string name="customTextView">customTextView</string>
+    <string name="customViewGroup">customViewGroup</string>
     <string name="start_process">This is Start Process Activity</string>
     <string name="second_activity">This is Second Activity</string>
     <string name="third_activity">This is Third  Activity</string>

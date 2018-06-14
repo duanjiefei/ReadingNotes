@@ -14,6 +14,7 @@ public class CustomTextViewActivity extends BaseActivity {
 
     private TopBarView topBarView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

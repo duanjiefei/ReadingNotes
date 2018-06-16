@@ -33,6 +33,11 @@
         android:text="@string/customViewGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/dragViewTest"
+        android:text="@string/dragViewTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

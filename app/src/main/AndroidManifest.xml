@@ -33,6 +33,7 @@
         <activity android:name=".View.CustomTextViewActivity"/>
         <activity android:name=".View.CustomViewGroupActivity"/>
         <activity android:name=".Scroller.DragViewTest"/>
+        <activity android:name=".Scroller.DragViewGroupTest"/>
     </application>
 
 </manifest>

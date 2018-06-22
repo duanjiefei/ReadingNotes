@@ -16,4 +16,9 @@
         android:layout_height="wrap_content"
         android:onClick="DrawActivity"/>
 
+    <Button
+        android:text="PixelsEffectActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="PixelsEffectActivity"/>
 </LinearLayout>

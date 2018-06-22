@@ -37,4 +37,8 @@ public class DrawActivity extends Activity{
         intent.setClass(DrawActivity.this,MatrixActivity.class);
         startActivity(intent);
     }
+
+    public void PixelsEffectActivity(View view){
+        startActivity(new Intent(DrawActivity.this,PixelsEffectActivity.class));
+    }
 }

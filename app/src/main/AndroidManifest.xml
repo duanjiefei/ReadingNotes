@@ -34,6 +34,7 @@
         <activity android:name=".View.CustomViewGroupActivity"/>
         <activity android:name=".Scroller.DragViewTest"/>
         <activity android:name=".Scroller.DragViewGroupTest"/>
+        <activity android:name=".Draw.DrawActivity"/>
     </application>
 
 </manifest>

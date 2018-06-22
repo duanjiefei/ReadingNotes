@@ -50,8 +50,9 @@
             android:layout_height="200dp" />
 
 
-
-
+        <com.djf.github.readingnotes.View.ClockView
+            android:layout_width="200dp"
+            android:layout_height="500dp" />
     </LinearLayout>
 
 

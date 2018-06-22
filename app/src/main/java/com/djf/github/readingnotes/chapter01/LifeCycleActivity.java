@@ -12,7 +12,10 @@ import com.djf.github.readingnotes.Utils.SimpleLogUtils;
 
 public class LifeCycleActivity extends Activity {
 
-
+    /**
+     * 创建基本的UI元素
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +38,9 @@ public class LifeCycleActivity extends Activity {
         SimpleLogUtils.d("onRestart");
     }
 
+    /**
+     * 重新创建在onpause中释放的资源
+     */
     @Override
     protected void onResume() {
         super.onResume();
@@ -78,6 +84,9 @@ public class LifeCycleActivity extends Activity {
         super.onNewIntent(intent);
     }
 
+    /**
+     * 释放系统资源
+     */
     @Override
     protected void onPause() {
         super.onPause();
@@ -85,6 +94,9 @@ public class LifeCycleActivity extends Activity {
         SimpleLogUtils.d("onPause");
     }
 
+    /**
+     * 清除资源，避免浪费
+     */
     @Override
     protected void onStop() {
         super.onStop();
@@ -92,6 +104,9 @@ public class LifeCycleActivity extends Activity {
         SimpleLogUtils.d("onStop");
     }
 
+    /**
+     * 引用会在ondestory时销毁，线程不会，在此处需要销毁开启的线程
+     */
     @Override
     protected void onDestroy() {
         super.onDestroy();

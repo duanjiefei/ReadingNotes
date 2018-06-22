@@ -38,6 +38,11 @@
         android:text="@string/dragViewTest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/drawTest"
+        android:text="Draw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

@@ -14,6 +14,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     private Button customTextView;
     private Button customViewGroup;
     private Button dragView;
+    private Button drawButton;
 
 
     @Override
@@ -26,13 +27,14 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         customTextView = findViewById(R.id.customTextView);
         customViewGroup = findViewById(R.id.customViewGroup);
         dragView = findViewById(R.id.dragViewTest);
-
+        drawButton = findViewById(R.id.drawTest);
         chapter01.setOnClickListener(this);
         chapter02.setOnClickListener(this);
         customView.setOnClickListener(this);
         customTextView.setOnClickListener(this);
         customViewGroup.setOnClickListener(this);
         dragView.setOnClickListener(this);
+        drawButton.setOnClickListener(this);
     }
 
     @Override
@@ -56,9 +58,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
                 intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.View.CustomTextViewActivity");
                 startActivity(intent);
                 break;
-
             case R.id.dragViewTest:
                 intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.Scroller.DragViewTest");
+                startActivity(intent);
+                break;
+            case R.id.drawTest:
+                intent.setClassName("com.djf.github.readingnotes", "com.djf.github.readingnotes.Draw.DrawActivity");
                 startActivity(intent);
                 break;
             default:

@@ -35,6 +35,7 @@
         <activity android:name=".Scroller.DragViewTest"/>
         <activity android:name=".Scroller.DragViewGroupTest"/>
         <activity android:name=".Draw.DrawActivity"/>
+        <activity android:name=".Draw.MatrixActivity"/>
     </application>
 
 </manifest>

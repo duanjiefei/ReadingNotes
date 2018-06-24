@@ -37,6 +37,7 @@
         <activity android:name=".Draw.DrawActivity"/>
         <activity android:name=".Draw.MatrixActivity"/>
         <activity android:name=".Draw.PixelsEffectActivity"/>
+        <activity android:name=".surfaceview.SurfaceViewActivity"/>
     </application>
 
 </manifest>

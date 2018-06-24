@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.djf.github.readingnotes.R;
+import com.djf.github.readingnotes.surfaceview.SurfaceViewActivity;
 
 /**
  * Created by Sky000 on 2018/6/20.
@@ -41,4 +42,9 @@ public class DrawActivity extends Activity{
     public void PixelsEffectActivity(View view){
         startActivity(new Intent(DrawActivity.this,PixelsEffectActivity.class));
     }
+
+    public void SurfaceViewActivity(View view){
+        startActivity(new Intent(DrawActivity.this,SurfaceViewActivity.class));
+    }
+
 }

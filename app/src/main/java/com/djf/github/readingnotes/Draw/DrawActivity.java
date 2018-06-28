@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.djf.github.readingnotes.R;
+import com.djf.github.readingnotes.animation.AnimationActivity;
 import com.djf.github.readingnotes.surfaceview.SurfaceViewActivity;
 
 /**
@@ -45,6 +46,10 @@ public class DrawActivity extends Activity{
 
     public void SurfaceViewActivity(View view){
         startActivity(new Intent(DrawActivity.this,SurfaceViewActivity.class));
+    }
+
+    public void AnimationActivity(View view){
+        startActivity(new Intent(DrawActivity.this,AnimationActivity.class));
     }
 
 }

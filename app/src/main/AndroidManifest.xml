@@ -39,6 +39,7 @@
         <activity android:name=".Draw.PixelsEffectActivity"/>
         <activity android:name=".surfaceview.SurfaceViewActivity"/>
         <activity android:name=".animation.AnimationActivity"/>
+        <activity android:name=".leak.LeakMemoryActivity"/>
     </application>
 
 </manifest>

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.djf.github.readingnotes.leak.LeakMemoryActivity;
+
 
 public class MainActivity extends BaseActivity implements View.OnClickListener{
 
@@ -70,5 +72,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
                 break;
         }
     }
+
+    public void AnimationActivity(View view){
+        startActivity(new Intent(MainActivity.this,LeakMemoryActivity.class));
+    }
+
 }
 

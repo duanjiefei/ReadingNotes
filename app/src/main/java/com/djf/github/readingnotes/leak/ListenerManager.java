@@ -20,6 +20,13 @@ public class ListenerManager {
         return mListenerManager;
     }
 
+    public int getListenerSize(){
+        if (listeners != null){
+            return listeners.size();
+        }
+        return -1;
+    }
+
     public void addListener(SampleListener sampleListener){
         listeners.add(sampleListener);
     }

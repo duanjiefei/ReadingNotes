@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         }
     }
 
-    public void AnimationActivity(View view){
+    public void LeakMemoryActivity(View view){
         startActivity(new Intent(MainActivity.this,LeakMemoryActivity.class));
     }
 

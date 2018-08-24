@@ -16,30 +16,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".chapter01.LifeCycleActivity"
-            android:configChanges="orientation|screenSize">
-        </activity>
+        <activity
+            android:name=".chapter01.LifeCycleActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity android:name=".chapter02.Chapter2Activity" />
+        <activity android:name=".chapter02.StartProcessActivity" />
+        <activity
+            android:name=".chapter02.StartProcessSecondActivity"
+            android:process=":remote"></activity>
+        <activity
+            android:name=".chapter02.StartProcessThirdActivity"
+            android:process="com.djf.github.readingnotes.remote"></activity>
+        <activity android:name=".View.CustomViewActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".View.CustomTextViewActivity" />
+        <activity android:name=".View.CustomViewGroupActivity" />
+        <activity android:name=".Scroller.DragViewTest" />
+        <activity android:name=".Scroller.DragViewGroupTest" />
+        <activity android:name=".Draw.DrawActivity" />
+        <activity android:name=".Draw.MatrixActivity" />
+        <activity android:name=".Draw.PixelsEffectActivity" />
+        <activity android:name=".surfaceview.SurfaceViewActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".leak.LeakMemoryActivity" />
 
-        <activity android:name=".chapter02.Chapter2Activity"/>
-        <activity android:name=".chapter02.StartProcessActivity"/>
-        <activity android:name=".chapter02.StartProcessSecondActivity"
-            android:process=":remote">
-        </activity>
-        <activity android:name=".chapter02.StartProcessThirdActivity"
-            android:process="com.djf.github.readingnotes.remote">
-        </activity>
-        <activity android:name=".View.CustomViewActivity"/>
-        <activity android:name=".BaseActivity"/>
-        <activity android:name=".View.CustomTextViewActivity"/>
-        <activity android:name=".View.CustomViewGroupActivity"/>
-        <activity android:name=".Scroller.DragViewTest"/>
-        <activity android:name=".Scroller.DragViewGroupTest"/>
-        <activity android:name=".Draw.DrawActivity"/>
-        <activity android:name=".Draw.MatrixActivity"/>
-        <activity android:name=".Draw.PixelsEffectActivity"/>
-        <activity android:name=".surfaceview.SurfaceViewActivity"/>
-        <activity android:name=".animation.AnimationActivity"/>
-        <activity android:name=".leak.LeakMemoryActivity"/>
+        <service
+            android:name=".Service.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

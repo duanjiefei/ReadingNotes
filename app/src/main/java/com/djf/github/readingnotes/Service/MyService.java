@@ -15,6 +15,9 @@ public class MyService extends Service {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
+    /**
+     * 只有在第一次被创建时才会调用
+     */
     @Override
     public void onCreate() {
         super.onCreate();
